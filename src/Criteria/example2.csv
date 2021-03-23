@@ -1,0 +1,7 @@
+﻿nct_id,concept_name,concept_id,domain_id,cat_elig,lab_elig_min,lab_elig_max
+NCT02885496,gender,4135376,Observation,1,,
+NCT02885496,alcohol abuse,433753,Condition,1,,
+NCT02885496,anemia,439777,Condition,0,,
+NCT02885496,ALT,4095055,Measurement,1,0,130
+NCT02885496,eGFR,3040084,Measurement,0,0,2000
+NCT02885496,age,4265453,Observation,1,18,90

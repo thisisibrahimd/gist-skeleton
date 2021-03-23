@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2E2F2CAF-F41C-4DFB-B8E2-196EF6C50C2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gist.Infrastructure", "src\Gist.Infrastructure\Gist.Infrastructure.csproj", "{5A0B2B4B-59BB-4FA4-B9B6-AE66E5FE6543}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gist.ApplicationCore", "src\Gist.ApplicationCore\Gist.ApplicationCore.csproj", "{0020AE61-61BE-4B56-A12F-263A00FAD9F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Default|Any CPU = Default|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7695162C-DE0F-4C03-95B6-4143EAC528DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7695162C-DE0F-4C03-95B6-4143EAC528DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7695162C-DE0F-4C03-95B6-4143EAC528DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7695162C-DE0F-4C03-95B6-4143EAC528DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9556EB69-1978-4F3B-A9C7-6E09F804DE1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9556EB69-1978-4F3B-A9C7-6E09F804DE1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9556EB69-1978-4F3B-A9C7-6E09F804DE1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9556EB69-1978-4F3B-A9C7-6E09F804DE1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9556EB69-1978-4F3B-A9C7-6E09F804DE1C}.Default|Any CPU.ActiveCfg = Debug|Any CPU
+		{9556EB69-1978-4F3B-A9C7-6E09F804DE1C}.Default|Any CPU.Build.0 = Debug|Any CPU
+		{5A0B2B4B-59BB-4FA4-B9B6-AE66E5FE6543}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A0B2B4B-59BB-4FA4-B9B6-AE66E5FE6543}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A0B2B4B-59BB-4FA4-B9B6-AE66E5FE6543}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A0B2B4B-59BB-4FA4-B9B6-AE66E5FE6543}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A0B2B4B-59BB-4FA4-B9B6-AE66E5FE6543}.Default|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A0B2B4B-59BB-4FA4-B9B6-AE66E5FE6543}.Default|Any CPU.Build.0 = Debug|Any CPU
+		{0020AE61-61BE-4B56-A12F-263A00FAD9F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0020AE61-61BE-4B56-A12F-263A00FAD9F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0020AE61-61BE-4B56-A12F-263A00FAD9F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0020AE61-61BE-4B56-A12F-263A00FAD9F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0020AE61-61BE-4B56-A12F-263A00FAD9F9}.Default|Any CPU.ActiveCfg = Debug|Any CPU
+		{0020AE61-61BE-4B56-A12F-263A00FAD9F9}.Default|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B03AE93D-E743-4528-A8A1-6A77D2D00AFA}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.inheritsSet = null
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.scope = text/x-csharp
+		$0.TextStylePolicy = $3
+		$3.FileWidth = 80
+		$3.TabWidth = 2
+		$3.IndentWidth = 2
+		$3.NoTabsAfterNonTabs = True
+		$3.scope = text/plain
+		$0.TextStylePolicy = $4
+		$4.inheritsSet = null
+		$4.scope = text/x-json
+		$0.JSONFormattingPolicy = $5
+		$5.AutoStructureCompletion = True
+		$5.BracePositions = SemiExpanded
+		$5.FormatOnPaste = True
+		$5.scope = text/x-json
+		$0.TextStylePolicy = $6
+		$6.inheritsSet = null
+		$6.scope = text/x-web
+		$0.TextStylePolicy = $7
+		$7.inheritsSet = null
+		$7.scope = text/x-vs
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5A0B2B4B-59BB-4FA4-B9B6-AE66E5FE6543} = {2E2F2CAF-F41C-4DFB-B8E2-196EF6C50C2A}
+		{0020AE61-61BE-4B56-A12F-263A00FAD9F9} = {2E2F2CAF-F41C-4DFB-B8E2-196EF6C50C2A}
+	EndGlobalSection
+EndGlobal
